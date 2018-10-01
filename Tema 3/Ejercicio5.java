@@ -1,6 +1,6 @@
 /**
  * 
- * Cálculo del área de un triángulo
+ * Cálculo del área de un rectángulo
  * 
  * 
  */
