@@ -10,7 +10,7 @@ public class Ejercicio10 {
 		dia = Integer.parseInt(System.console().readLine());
 		String mes;
 		System.out.print("Introduce tu mes de nacimiento: ");
-		mes = System.console().readLine();
+		mes = System.console().readLine().toLowerCase();
 		String horoscopo;
 		if (((mes.equals("febrero")) && (dia >= 30)) || (dia > 31)){
 			System.out.println("Fecha errónea");
