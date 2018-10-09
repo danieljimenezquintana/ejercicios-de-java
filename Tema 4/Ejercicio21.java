@@ -16,7 +16,10 @@ public class Ejercicio21 {
 			recuperacion =System.console().readLine().toUpperCase();
 			if (recuperacion.equals("SI")){
 				System.out.println("Tu nota media es: 5");
+			}else if(recuperacion.equals("NO")){
+				System.out.print("Tu nota media es: " + notamedia);
 			}
+			
 		}
 		
 	}
