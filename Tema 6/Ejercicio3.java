@@ -8,24 +8,24 @@
  *
  * @author daniel
  */
-public class Ejercicio2 {
+public class Ejercicio3 {
   public static void main(String[] args){
     String nombrePalo = "";
     String nombreFigura;
     int numeroPalo = (int)(Math.random() * 4);
-    int numeroFigura = (int)(Math.random() * 13);
+    int numeroFigura = (int)(Math.random() * 11);
     switch (numeroPalo){
+        case 0 :
+           nombrePalo = "Copas";
+           break;
         case 1 :
-           nombrePalo = "Corazones";
+           nombrePalo = "Espadas";
            break;
         case 2 :
-           nombrePalo = "Picas";
+           nombrePalo = "Bastos";
            break;
         case 3 :
-           nombrePalo = "Tréboles";
-           break;
-        case 0 :
-           nombrePalo = "Diamantes";
+           nombrePalo = "Oro";
            break;
         default:
     }
@@ -33,14 +33,14 @@ public class Ejercicio2 {
       case 1:
         nombreFigura = "As";
         break;
-      case 11:
-        nombreFigura = "J";
+      case 8:
+        nombreFigura = "Sota";
         break;
-      case 12:
-        nombreFigura = "Q";
+      case 9:
+        nombreFigura = "Caballo";
         break;
-      case 13:
-        nombreFigura = "K";
+      case 10:
+        nombreFigura = "Rey";
         break;
       default:
         nombreFigura = String.valueOf(numeroFigura);
