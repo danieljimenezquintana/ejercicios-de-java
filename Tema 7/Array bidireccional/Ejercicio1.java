@@ -4,7 +4,7 @@ package tema.pkg7;
  *
  * @author daniel
  */
-public class Ejercicio18 {
+public class Ejercicio1 {
   public static void main(String[] args){
     //Array
     int[][] num;
