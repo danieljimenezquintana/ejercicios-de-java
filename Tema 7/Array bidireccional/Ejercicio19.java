@@ -42,10 +42,8 @@ public class Ejercicio19 {
         }
     }   
     //Suma total
-    for(int i = 0; i < fila; i++){
-      for(int j = 0;j < columna; j++){
-        sumaTotal = sumaColumna[j] + numero[i][j];
-        }
+    for(int i = 0; i < columna; i++){
+      sumaTotal += sumaColumna[i];
     }
     //Mostrar array
     for(int i = 0 ; i < fila; i++){
@@ -58,6 +56,9 @@ public class Ejercicio19 {
     
     for(int i = 0 ; i < columna; i++){
     System.out.printf("%5d", sumaColumna[i]);
-    }System.out.println("");
+    }
+    //Mostrar suma total
+    System.out.printf(" = "+ sumaTotal);
+    System.out.println("");
   }
 }

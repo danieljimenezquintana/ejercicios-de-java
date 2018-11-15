@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tema.pkg7;
 
 /**
@@ -42,10 +37,8 @@ public class Ejercicio21 {
         }
     }   
     //Suma total
-    for(int i = 0; i < fila; i++){
-      for(int j = 0;j < columna; j++){
-        sumaTotal = sumaColumna[j] + numero[i][j];
-        }
+    for(int i = 0; i < columna; i++){
+      sumaTotal += sumaColumna[i];
     }
     //Mostrar array
     for(int i = 0 ; i < fila; i++){
@@ -57,11 +50,14 @@ public class Ejercicio21 {
       System.out.println("");
     }System.out.println("----------------------------------------------------");
     
-    //Mostrar suma de la columna
-    Thread.sleep(1000); 
+    //Mostrar suma de la columna 
     for(int i = 0 ; i < columna; i++){
+      Thread.sleep(1000);
       System.out.printf("%5d", sumaColumna[i]);
-    }System.out.println("");
+    }//Mostrar suma total
+    Thread.sleep(1000);
+    System.out.printf(" = " + sumaTotal);
+    System.out.println("");
   }
 }
 
