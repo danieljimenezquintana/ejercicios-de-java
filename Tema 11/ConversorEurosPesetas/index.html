@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Conversión de Euros y Pesetas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color: blue; position:relative; padding-left: 35%;padding-top: 5%; text-align: center; ">
+        <div style="background-color:rgba(204, 255, 255,0.6); width: 50%;border-radius: 40px;">
+            <h1>Conversión de Euros y Pesetas</h1>
+            <form action="convertido.jsp" >
+                Seleccionar el modo de conversión
+                <select name="conversion">
+                    <option value="pe">Pesetas-Euros</option>
+                    <option value="ep">Euros-Pesetas</option>
+                </select>
+                <br>
+                Introduzca la cantidad que desea convertir
+                <input type="number" min="0" name="cantidad">
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
+</html>
