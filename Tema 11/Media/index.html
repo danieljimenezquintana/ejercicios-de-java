@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid"></div>
+        <form action="media.jsp" metod="GET">
+            <div class="form-group"></div>
+            <h1>Cálculo de las medias</h1>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Nota 1</label>
+                <input type="number" min="0" max="10" Step="0.01" class="form-control" id="nota1" placeholder="Introduce la nota 1" name="Nota1">
+                <small id="nota1" class="form-text text-muted">Esta es la nota de tu primer examen</small>
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nota 2</label>
+              <input type="number" min="0" max="10" Step="0.01" class="form-control" id="nota2" placeholder="Introduce la nota 2" name="Nota2">
+              <small id="nota2" class="form-text text-muted">Esta es la nota de tu segundo examen</small>
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nota 3</label>
+              <input type="number" min="0" max="10" Step="0.01" class="form-control" id="nota3" placeholder="Introduce la nota 3" name="Nota3">
+              <small id="nota3" class="form-text text-muted">Esta es la nota de tu tercer examen</small>
+            </div>
+            <button type="Submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </body>
+</html>
